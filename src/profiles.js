@@ -3,11 +3,7 @@ $(".profile").flip({
 });
 
 $("#download").click(function() {
-	ga(‘send’,’event’, {
-    eventCategory: 'Downloads',
-    eventAction: 'Download Clicks',
-    eventLabel: 'Hillary'
-  });
+	ga('send','event','Downloads','Download Clicks','Hillary');
 });
 
 
