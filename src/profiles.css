@@ -1,0 +1,77 @@
+/* ----------------
+ *  Common Classes
+ * ----------------
+ */
+.icon:hover {
+	margin:50px 0px;
+	opacity:0.5;
+	cursor:pointer;
+}
+.gray_out {
+	-webkit-filter: grayscale(100%);
+	-moz-filter: grayscale(100%);
+	-ms-filter: grayscale(100%);
+	-o-filter: grayscale(100%);
+	filter: url(grayscale.svg); /* Firefox 4+ */
+	filter: gray; /* IE 6-9 */
+	transition:-webkit-filter 1s, -moz-filter 1s, -ms-filter 1s, -o-filter 1s, filter 1s;
+}
+
+/* ------------------
+ *  Profiles Section
+ * ------------------
+ */
+#profiles {
+	padding:20px 0px;
+	width:100%;
+	background-color:whitesmoke;
+	text-align:center;
+}
+
+#profiles_title {
+	margin:0;
+}
+
+#profiles_subtitle {
+	margin:0;
+	font-size:30px;
+}
+
+.profile {
+	margin:10px;
+	height:230px;
+	width:270px;
+	display:inline-block;
+	transition:-webkit-filter 1s, -moz-filter 1s, -ms-filter 1s, -o-filter 1s, filter 1s;
+}
+.profile_container_title {
+	height:185px;
+	width:100%;
+}
+.profile_container_link {
+	height:45px;
+	width:100%;
+}
+.profile_name {
+	padding-top:30%;
+	font-size:40px;
+}
+.profile_position {
+	font-size:12px;
+}
+
+.back {
+	background-color:white;
+}
+.front {
+	background-color:black;
+}
+
+#hillary .front {
+	background:url(img/AlbumArt_Hillary.png) no-repeat center center;
+}
+#hillary .front {
+	background-size:cover;
+}
+
+
